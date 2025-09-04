@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-background_118047-12801.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    border: 2px solid ;
+}
+.mini-perfil{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.mini-perfil > img{
+    border-radius: 5%;
+    width: 50px;
+}
+.projects > p{
+border: 2px solid;
+}
+.works > p{
+border: 2px solid;
+}
+.education > p {
+border: 2px solid;
+}
