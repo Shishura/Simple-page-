@@ -1,27 +1,44 @@
-body{
-    background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-background_118047-12801.jpg);
+body {
+    background-color: antiquewhite;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: cursive;
 }
-header{
-    border: 2px solid ;
+
+header {
+    border: 2px solid;
 }
-.mini-perfil{
+
+.mini-perfil {
     text-decoration: none;
     color: black;
     text-align: left;
 }
-.mini-perfil > img{
-    border-radius: 5%;
+
+.mini-perfil>img {
+    border-radius: 50%;
     width: 50px;
 }
-.projects > p{
-border: 2px solid;
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
-.works > p{
-border: 2px solid;
+
+
+.projects {
+ flex: 2;
+ border: 2px solid;
+ height: 500px;
 }
-.education > p {
-border: 2px solid;
+
+.works {
+    border: 2px solid;
+    flex: 2;
+}
+
+.education {
+    border: 2px solid;
+    flex: 2;
 }
