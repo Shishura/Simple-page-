@@ -17,7 +17,8 @@ header {
 }
 
 .mini-perfil>img {
-    border-radius: 50%;
+    border: 2px solid;
+    border-radius: 0 10px 0 10px ;
     width: 50px;
 }
 
